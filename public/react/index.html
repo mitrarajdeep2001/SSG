@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>React + Babel via CDN</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- React & ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <!-- JSX Script -->
+    <script type="text/babel" src="components/Counter.jsx"></script>
+    <script type="text/babel" src="pages/Home.jsx"></script>
+    <script type="text/babel" src="pages/About.jsx"></script>
+    <script type="text/babel" src="App.jsx"></script>
+    <!-- LiveReload (for development) -->
+    <script src="http://localhost:35729/livereload.js"></script>
+</body>
+
+</html>

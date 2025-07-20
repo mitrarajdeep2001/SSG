@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  padding: 2rem;
+  color: #222;
+}
+
+.counter-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.navigate-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
